@@ -1,0 +1,37 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# Node modules
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*~
+*.bak
+
+# Go build output
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Misc
+.env
+.env.*
+
+# Ignore themes/ananke/node_modules if present
+/themes/ananke/node_modules/
