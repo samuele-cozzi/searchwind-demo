@@ -1,4 +1,9 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Project'
-theme = 'ananke'
+
+# theme = 'ananke'
+theme = 'searchwind'
+themesDir = '/home/samuele/Code/'
+
+
