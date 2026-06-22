@@ -1,9 +1,69 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
+baseURL = 'http://localhost:1313/'
 title = 'My New Hugo Project'
 
 # theme = 'ananke'
 theme = 'searchwind'
 themesDir = '/home/samuele/Code/'
 
+contentDir = "/home/samuele/Nextcloud/Knowledge/31.bookmarks/content"
 
+[params]
+    logo = 'home'
+    showCategoriesMenu = false
+    showTagsMenu = true
+
+[params.usersettings]
+    sidebar = "left" # left/right
+    imageLink = "external" # external/empty
+    
+[params.colors.light]
+    bg = "#d7d41f"
+    bg_card = "#FFFFFF"
+
+    primary = "#ef4444"
+    primary_hover = "#dc2626"
+    primary_active = "#b91c1c"
+    primary_outline = "#fca5a5"
+
+    secondary = "#f87171"
+    secondary_hover = "#f43f5e"
+    secondary_active = "#e11d48"
+    secondary_outline = "#fecaca"
+
+    accent = "#fb7185"
+    accent_hover = "#f43f5e"
+    accent_active = "#e11d48"
+    accent_outline = "#fda4af"
+
+    text_base = "#111827"
+    text_muted = "#4B5563" 
+
+    text_primary = "#7f1d1d"
+    text_secondary = "#9f1239"
+    text_accent = "#be123c"
+
+[params.colors.dark]
+    bg = "#1F2937"
+    bg_card = "#111827"
+
+    primary = "#b91c1c"
+    primary_hover = "#991b1b"
+    primary_active = "#7f1d1d"
+    primary_outline = "#fca5a5"
+
+    secondary = "#9f1239"
+    secondary_hover = "#e11d48"
+    secondary_active = "#be123c"
+    secondary_outline = "#fda4af"
+
+    accent = "#dc2626"
+    accent_hover = "#ef4444"
+    accent_active = "#b91c1c"
+    accent_outline = "#fecaca"
+
+    text_base = "#E5E7EB"
+    text_muted = "#9CA3AF"
+
+    text_primary = "#fca5a5"
+    text_secondary = "#fda4af"
+    text_accent = "#fef2f2"
