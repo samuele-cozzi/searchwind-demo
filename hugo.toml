@@ -7,14 +7,28 @@ themesDir = '/home/samuele/Code/'
 
 contentDir = "/home/samuele/Nextcloud/Knowledge/31.bookmarks/content"
 
+[outputs]
+    home = ["HTML", "JSON", "RSS"]  
+
 [params]
-    logo = 'home'
-    showCategoriesMenu = false
-    showTagsMenu = true
+    # logo = 'home'
+    # showCategoriesMenu = false
+    # showTagsMenu = true
+
+[[params.menu.shortcut]]
+    logo = "star"
+    linkType = ""
+    url = "/tags/favorite"
+
+[[params.menu.shortcut]]
+    logo = "github"
+    linkType = "external"
+    url = "https://github.com/samuele-cozzi"
 
 [params.usersettings]
     sidebar = "left" # left/right
     imageLink = "external" # external/empty
+    searchProvider = "meilisearch"
     
 [params.colors.light]
     bg = "#d7d41f"
