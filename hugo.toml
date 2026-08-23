@@ -5,7 +5,7 @@ title = 'My New Hugo Project'
 theme = 'searchwind'
 themesDir = '/home/samuele/Code/'
 
-contentDir = "/home/samuele/Nextcloud/Knowledge/31.bookmarks/content"
+# contentDir = "/home/samuele/Nextcloud/Knowledge/31.bookmarks/content"
 
 [outputs]
     home = ["HTML", "JSON", "RSS"]  
@@ -28,7 +28,8 @@ contentDir = "/home/samuele/Nextcloud/Knowledge/31.bookmarks/content"
 [params.usersettings]
     sidebar = "left" # left/right
     imageLink = "external" # external/empty
-    searchProvider = "meilisearch"
+    searchProvider = "fuse"
+    gridColumnNumber = 7
     
 [params.colors.light]
     bg = "#d7d41f"
