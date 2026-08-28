@@ -1,17 +1,19 @@
 baseURL = 'http://localhost:1313/'
 title = 'My New Hugo Project'
 
-# theme = 'ananke'
 theme = 'searchwind'
 themesDir = '/home/samuele/Code/'
 
 # contentDir = "/home/samuele/Nextcloud/Knowledge/31.bookmarks/content"
 
 [outputs]
-    home = ["HTML", "JSON", "RSS"]  
+    home = ["HTML", "JSON", "RSS", "WebAppManifest", "ServiceWorker"]  
 
 [params]
     # logo = 'home'
+    header = "left" # top/left/right
+    # imageLink = "" # external/empty
+    # searchProvider = "fuse"
     # showCategoriesMenu = false
     # showTagsMenu = true
 
@@ -26,10 +28,11 @@ themesDir = '/home/samuele/Code/'
     url = "https://github.com/samuele-cozzi"
 
 [params.usersettings]
-    sidebar = "left" # left/right
-    imageLink = "external" # external/empty
-    searchProvider = "fuse"
+
     gridColumnNumber = 7
+
+[params.pagelayout]
+    showTitle = true
     
 [params.colors.light]
     bg = "#d7d41f"
